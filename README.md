@@ -21,7 +21,7 @@ Minimal starter for AI apps with Next.js 15, TypeScript, AI SDK 5, shadcn/ui, an
 2. Create `.env.local` file:
 
    ```bash
-   echo "OPENAI_API_KEY=your_openai_api_key_here" > .env.local
+   echo "OPENAI_API_KEY" > .env.local
    ```
 
 3. Start development:

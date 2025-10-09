@@ -113,7 +113,7 @@ export default function ChatAssistant() {
           {messages.length === 0 ? (
             <ConversationEmptyState
               title="Start a conversation"
-              description="Ask me anything and I'll help you out!"
+              description="Ask me anything about recently compromised npm packages and I'll help you out!"
             />
           ) : (
             messages.map((message) => (
